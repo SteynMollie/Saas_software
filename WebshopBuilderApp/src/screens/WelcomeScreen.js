@@ -1,5 +1,5 @@
 import React from 'react';
-import {Stylesheet, View, Text, Button} from 'react-native';
+import {StyleSheet, View, Text, Button} from 'react-native';
 
 export default function WelcomeScreen({ navigation }) { // Get navigation prop
     return (
@@ -13,7 +13,7 @@ export default function WelcomeScreen({ navigation }) { // Get navigation prop
     );
 }
 
-const styles = Stylesheet.create({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
