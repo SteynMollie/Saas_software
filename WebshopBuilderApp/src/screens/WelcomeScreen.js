@@ -34,7 +34,7 @@ export default function WelcomeScreen({ navigation }) {
     return (
         <View style={styles.mainContainer}>
             <View style={styles.title}>
-                <Text style={styles.text}>Welcome to the SJ-solutions Webshop Builder App!</Text>
+                <Text style={styles.text}>Please login with your account</Text>
             </View>
             <View style={styles.contentContainer}>
                 {showFields? (
